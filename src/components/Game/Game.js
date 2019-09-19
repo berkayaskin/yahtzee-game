@@ -9,8 +9,8 @@ const NUM_ROLLS = 3;
 class Game extends Component {
 
     state = {
-        dice: Array.from({length: NUM_DICE}),
-        locked: Array.from(NUM_DICE).fill(false),
+        dice: Array.from({ length: NUM_DICE }),
+        locked: Array(NUM_DICE).fill(false),
         rollsLeft: NUM_ROLLS,
         scores: {
             ones: undefined,
@@ -27,7 +27,8 @@ class Game extends Component {
             yahtzee: undefined,
             chance: undefined,
         }
-    }
+    };
+
 
     roll = e => {
         // roll dice whose indexes are in reroll
@@ -40,13 +41,12 @@ class Game extends Component {
         }));
     }
 
-    toggleLocked = i => {
-        // toggle whether index is in locked or not
+    toggleLocked = idx => {
         this.setState(st => ({
             locked: [
-                ...st.locked.slice(0, i),
-                !st.locked[i],
-                ...st.locked.slice(i + 1)
+                ...st.locked.slice(0, idx),
+                !st.locked[idx],
+                ...st.locked.slice(idx + 1)
             ]
         }));
     }
@@ -66,7 +66,6 @@ class Game extends Component {
             <div className='Game'>
                 <header className='Game-header'>
                     <h1 className='App-title'>Yahtzee!</h1>
-
                     <section className='Game-dice-section'>
                         <Dice
                             dice={this.state.dice}

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="381a4d7a-0ee5-447a-902d-22608523d7bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dice/Dice.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dice/Dice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Die/Die.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Die/Die.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game/Game.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/Game.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RuleRow/RuleRow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RuleRow/RuleRow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScoreTable/ScoreTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScoreTable/ScoreTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dice/Dice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dice/Dice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Die/Die.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Die/Die.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/Game.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568795412849</updated>
       <workItem from="1568795414791" duration="3011000" />
-      <workItem from="1568807414082" duration="10690000" />
+      <workItem from="1568807414082" duration="19146000" />
     </task>
     <servers />
   </component>
