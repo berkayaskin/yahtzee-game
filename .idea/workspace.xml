@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="381a4d7a-0ee5-447a-902d-22608523d7bc" name="Default Changelist" comment="" />
+    <list default="true" id="381a4d7a-0ee5-447a-902d-22608523d7bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dice/Dice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dice/Dice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Die/Die.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Die/Die.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Game/Game.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Game/Game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RuleRow/RuleRow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RuleRow/RuleRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ScoreTable/ScoreTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ScoreTable/ScoreTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Rules.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/setUpTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +32,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,7 +86,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568795412849</updated>
-      <workItem from="1568795414791" duration="269000" />
+      <workItem from="1568795414791" duration="3011000" />
+      <workItem from="1568807414082" duration="9085000" />
     </task>
     <servers />
   </component>
@@ -73,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
